@@ -1,0 +1,34 @@
+C:\Users\scowe\Desktop\CSV\app\obj\Debug\net8.0\app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scowe\Desktop\CSV\app\obj\Debug\net8.0\app.AssemblyInfoInputs.cache
+C:\Users\scowe\Desktop\CSV\app\obj\Debug\net8.0\app.AssemblyInfo.cs
+C:\Users\scowe\Desktop\CSV\app\obj\Debug\net8.0\app.csproj.CoreCompileInputs.cache
+C:\Users\scowe\Desktop\CSV\app\bin\Debug\net8.0\app.exe
+C:\Users\scowe\Desktop\CSV\app\bin\Debug\net8.0\app.deps.json
+C:\Users\scowe\Desktop\CSV\app\bin\Debug\net8.0\app.runtimeconfig.json
+C:\Users\scowe\Desktop\CSV\app\bin\Debug\net8.0\app.dll
+C:\Users\scowe\Desktop\CSV\app\bin\Debug\net8.0\app.pdb
+C:\Users\scowe\Desktop\CSV\app\bin\Debug\net8.0\CsvHelper.dll
+C:\Users\scowe\Desktop\CSV\app\obj\Debug\net8.0\app.csproj.AssemblyReference.cache
+C:\Users\scowe\Desktop\CSV\app\obj\Debug\net8.0\app.csproj.Up2Date
+C:\Users\scowe\Desktop\CSV\app\obj\Debug\net8.0\app.dll
+C:\Users\scowe\Desktop\CSV\app\obj\Debug\net8.0\refint\app.dll
+C:\Users\scowe\Desktop\CSV\app\obj\Debug\net8.0\app.pdb
+C:\Users\scowe\Desktop\CSV\app\obj\Debug\net8.0\app.genruntimeconfig.cache
+C:\Users\scowe\Desktop\CSV\app\obj\Debug\net8.0\ref\app.dll
+C:\Users\scowe\Desktop\CollegeStuff\U16A2 CSV_Reader\app\bin\Debug\net8.0\app.exe
+C:\Users\scowe\Desktop\CollegeStuff\U16A2 CSV_Reader\app\bin\Debug\net8.0\app.deps.json
+C:\Users\scowe\Desktop\CollegeStuff\U16A2 CSV_Reader\app\bin\Debug\net8.0\app.runtimeconfig.json
+C:\Users\scowe\Desktop\CollegeStuff\U16A2 CSV_Reader\app\bin\Debug\net8.0\app.dll
+C:\Users\scowe\Desktop\CollegeStuff\U16A2 CSV_Reader\app\bin\Debug\net8.0\app.pdb
+C:\Users\scowe\Desktop\CollegeStuff\U16A2 CSV_Reader\app\bin\Debug\net8.0\CsvHelper.dll
+C:\Users\scowe\Desktop\CollegeStuff\U16A2 CSV_Reader\app\obj\Debug\net8.0\app.csproj.AssemblyReference.cache
+C:\Users\scowe\Desktop\CollegeStuff\U16A2 CSV_Reader\app\obj\Debug\net8.0\app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scowe\Desktop\CollegeStuff\U16A2 CSV_Reader\app\obj\Debug\net8.0\app.AssemblyInfoInputs.cache
+C:\Users\scowe\Desktop\CollegeStuff\U16A2 CSV_Reader\app\obj\Debug\net8.0\app.AssemblyInfo.cs
+C:\Users\scowe\Desktop\CollegeStuff\U16A2 CSV_Reader\app\obj\Debug\net8.0\app.csproj.CoreCompileInputs.cache
+C:\Users\scowe\Desktop\CollegeStuff\U16A2 CSV_Reader\app\obj\Debug\net8.0\app.csproj.Up2Date
+C:\Users\scowe\Desktop\CollegeStuff\U16A2 CSV_Reader\app\obj\Debug\net8.0\app.dll
+C:\Users\scowe\Desktop\CollegeStuff\U16A2 CSV_Reader\app\obj\Debug\net8.0\refint\app.dll
+C:\Users\scowe\Desktop\CollegeStuff\U16A2 CSV_Reader\app\obj\Debug\net8.0\app.pdb
+C:\Users\scowe\Desktop\CollegeStuff\U16A2 CSV_Reader\app\obj\Debug\net8.0\app.genruntimeconfig.cache
+C:\Users\scowe\Desktop\CollegeStuff\U16A2 CSV_Reader\app\obj\Debug\net8.0\ref\app.dll

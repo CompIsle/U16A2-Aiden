@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dE4EU3rzoiQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scowe\\Desktop\\CollegeStuff\\U16A2 CSV_Reader\\app\\app.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scowe\\.nuget\\packages\\csvhelper\\32.0.3\\csvhelper.32.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
