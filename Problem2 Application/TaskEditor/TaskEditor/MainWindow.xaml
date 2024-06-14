@@ -1,0 +1,29 @@
+﻿<Window x:Class="TaskEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskEditor"
+        mc:Ignorable="d"
+        Title="To-Do List" Height="450" Width="800">
+    <Grid Margin="0,10,0,0">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <ListBox x:Name="TaskList" Grid.Column="0" Margin="10" SelectionMode="Single"/>
+
+        <StackPanel Grid.Column="1" Margin="10">
+            <TextBox x:Name="TitleBox" Text="Task Name" Margin="0,0,0,10"/>
+            <TextBox x:Name="DescriptionBox" Text="Task Description" Margin="0,0,0,10"/>
+            <DatePicker x:Name="DueDatePicker" Margin="0,0,0,10"/>
+            <Button Content="Add Task" Click="AddTask_Click" Margin="0,0,0,10"/>
+            <Button Content="Delete Task" Click="DeleteTask_Click" Margin="0,0,0,10"/>
+            <Button Content="Mark as Completed" Click="MarkAsComplete_Click" Margin="0,0,0,10"/>
+            <CheckBox x:Name="ShowCompletedTasksCheckBox" Content="Show Completed" Checked="ShowCompletedTasks_Checked" Unchecked="ShowCompletedTasks_Checked"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
