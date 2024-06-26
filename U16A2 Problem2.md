@@ -178,9 +178,33 @@ The college library needs to integrate all its books into a new indexing system.
 
 This code reads book records from a CSV file, generates an MD5 hash code for each record, and writes the updated records to a new CSV file. It uses `CsvHelper` for CSV operations, handles cultural settings for consistent formatting, and employs cryptographic services for hash generation.
 
-## Design Justifications
+## M2 Design Justification
 
-For the indexing system, I chose to use the external library CSVHelper because it simplifies the process of reading and writing files, and is both flexible and easy to use. Additionally, I included the "System.Security.Cryptography" library to enhance overall security. This library allows the use of methods such as hashing, which helps ensure the confidentiality and integrity of the code.
+I chose to use CsvHelper, an external library to simplify the code and boost the program's performance significantly. CsvHelper excels in minimizing memory usage by processing CSV files one record at a time during iteration, thereby ensuring that only a small segment of the file resides in memory at any given moment. This efficient handling enhances overall program performance.
+
+A standout feature of CsvHelper is its attribute mapping ability, which allows developers to specify the mapping between CSV file fields and class properties. This feature addresses the challenge of unpredictable class member ordering in .NET environments, leading to fewer errors and improved code readability. By explicitly defining these mappings, CsvHelper streamlines data parsing and manipulation tasks, offering a dependable solution for handling CSV operations with precision and efficiency.
+
+In comparison to manual CSV parsing methods, integrating CsvHelper has simplified and streamlined the program's implementation. It eliminates the difficulties and potential pitfalls associated with manual parsing, such as data type conversions and edge case handling. This approach not only accelerates development but also enhances code maintainability by leveraging CsvHelper's proven capabilities for CSV file management.
+
+Additionally, I implemented a dedicated class to manage serial number allocation to the `GenerateHashCode` interface for flexibility and future extensibility. This design choice facilitates seamless integration of alternative serial number generation methods as needed. By utilizing SHA256 hashing for serial numbers, the application ensures robust collision resistance, thereby bolstering security and reliability. This methodical approach enhances the uniqueness and integrity of each generated serial number, crucial for maintaining data consistency and accuracy.
+
+## M3 Optimization
+
+- Adam Hurst : The todo list application is very useful and easy to use. However, it would be helpful if you could add comments to the code to make it easier to understand and edit.
+- Ugnius Mieldazys : In both of the solutions, the code has blue lines under some of the text.
+
+Like what I did for Problem 1, I cleared all the blue text again
+
+![Problem 2](<Images/Problem2 Evidence/Screenshot 2024-06-13 190923.png>)
+
+Same as Problem 1, I added comments to my code to make it more legible and easier to understand. This will help users navigate the codebase more effectively and make future modifications or enhancements with greater ease.
+
+![alt text](<Images/Problem2 Evidence/Screenshot 2024-06-13 190923.png>)
+![alt text](<Images/Problem2 Evidence/Screenshot 2024-06-13 190949.png>)
+
+The optimised code for the serial number generator is similar to the one used in Microsoft Documentation [Microsoft Documentation.](https://learn.microsoft.com/en-us/dotnet/api/system.security.cryptography.sha256?view=net-8.0) This is because the SHA256 algorithm is a widely accepted and secure method for generating hash codes. By using this algorithm, the application ensures that the serial numbers are unique and secure, providing a robust solution for managing book records. The negatives of using this algorithm are that it can be computationally intensive for large datasets, potentially impacting performance. However, for the current requirements, the benefits of security and uniqueness outweigh the performance considerations.
+
+The same hashed value will always produce the same hash code, regardless of the number of times it is hashed. This property is essential for ensuring data consistency and integrity, as it guarantees that the same input will always yield the same output. By using a secure hashing algorithm like SHA256, the application can rely on consistent hash codes for each serial number, enabling reliable data management and verification.
 
 ## Testing Plan
 
